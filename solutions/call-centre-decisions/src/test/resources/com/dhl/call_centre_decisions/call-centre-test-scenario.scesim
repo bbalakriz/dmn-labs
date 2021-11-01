@@ -1,0 +1,567 @@
+<ScenarioSimulationModel version="1.8">
+  <simulation>
+    <scesimModelDescriptor>
+      <factMappings>
+        <FactMapping>
+          <expressionElements/>
+          <expressionIdentifier>
+            <name>Index</name>
+            <type>OTHER</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>#</name>
+            <className>java.lang.Integer</className>
+          </factIdentifier>
+          <className>java.lang.Integer</className>
+          <factAlias>#</factAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>70.0</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements/>
+          <expressionIdentifier>
+            <name>Description</name>
+            <type>OTHER</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>Scenario description</name>
+            <className>java.lang.String</className>
+          </factIdentifier>
+          <className>java.lang.String</className>
+          <factAlias>Scenario description</factAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>300.0</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>call</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>purpose</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|1</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>call</name>
+            <className>call</className>
+          </factIdentifier>
+          <className>string</className>
+          <factAlias>call</factAlias>
+          <expressionAlias>purpose</expressionAlias>
+          <genericTypes/>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>call</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>phone</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>country prefix</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|2</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>call</name>
+            <className>call</className>
+          </factIdentifier>
+          <className>country prefix</className>
+          <factAlias>call</factAlias>
+          <expressionAlias>phone.country prefix</expressionAlias>
+          <genericTypes/>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>186.0</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>call</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>phone</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>phone number</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|3</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>call</name>
+            <className>call</className>
+          </factIdentifier>
+          <className>string</className>
+          <factAlias>call</factAlias>
+          <expressionAlias>phone.phone number</expressionAlias>
+          <genericTypes/>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>186.0</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>employees</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|4</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>employees</name>
+            <className>employees</className>
+          </factIdentifier>
+          <className>java.util.List</className>
+          <factAlias>employees</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <genericTypes>
+            <string>tEmployees</string>
+          </genericTypes>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>incoming call</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>purpose</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|5</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>incoming call</name>
+            <className>incoming call</className>
+          </factIdentifier>
+          <className>string</className>
+          <factAlias>incoming call</factAlias>
+          <expressionAlias>purpose</expressionAlias>
+          <genericTypes/>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>incoming call</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>phone</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>country prefix</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|6</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>incoming call</name>
+            <className>incoming call</className>
+          </factIdentifier>
+          <className>country prefix</className>
+          <factAlias>incoming call</factAlias>
+          <expressionAlias>phone.country prefix</expressionAlias>
+          <genericTypes/>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>154.0</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>incoming call</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>phone</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>phone number</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|7</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>incoming call</name>
+            <className>incoming call</className>
+          </factIdentifier>
+          <className>string</className>
+          <factAlias>incoming call</factAlias>
+          <expressionAlias>phone.phone number</expressionAlias>
+          <genericTypes/>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>158.0</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>office</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>location</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|8</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>office</name>
+            <className>office</className>
+          </factIdentifier>
+          <className>string</className>
+          <factAlias>office</factAlias>
+          <expressionAlias>location</expressionAlias>
+          <genericTypes/>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>Accept Call</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|9</name>
+            <type>EXPECT</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>Accept Call</name>
+            <className>Accept Call</className>
+          </factIdentifier>
+          <className>boolean</className>
+          <factAlias>Accept Call</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <genericTypes/>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>Banned Phone Numbers</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|10</name>
+            <type>EXPECT</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>Banned Phone Numbers</name>
+            <className>Banned Phone Numbers</className>
+          </factIdentifier>
+          <className>java.util.List</className>
+          <factAlias>Banned Phone Numbers</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <genericTypes>
+            <string>tPhoneNumbers</string>
+          </genericTypes>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>178.0</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>Call Can Be Handled</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|11</name>
+            <type>EXPECT</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>Call Can Be Handled</name>
+            <className>Call Can Be Handled</className>
+          </factIdentifier>
+          <className>boolean</className>
+          <factAlias>Call Can Be Handled</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <genericTypes/>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>141.0</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>Call Purpose Accepted</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|12</name>
+            <type>EXPECT</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>Call Purpose Accepted</name>
+            <className>Call Purpose Accepted</className>
+          </factIdentifier>
+          <className>boolean</className>
+          <factAlias>Call Purpose Accepted</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <genericTypes/>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>160.0</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>Is Banned</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|13</name>
+            <type>EXPECT</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>Is Banned</name>
+            <className>Is Banned</className>
+          </factIdentifier>
+          <className>boolean</className>
+          <factAlias>Is Banned</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <genericTypes/>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
+        </FactMapping>
+      </factMappings>
+    </scesimModelDescriptor>
+    <scesimData>
+      <Scenario>
+        <factMappingValues>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Scenario description</name>
+              <className>java.lang.String</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>Description</name>
+              <type>OTHER</type>
+            </expressionIdentifier>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>call</name>
+              <className>call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|1</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;help&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>call</name>
+              <className>call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|2</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;+420&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>call</name>
+              <className>call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|3</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;1234&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>employees</name>
+              <className>employees</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|4</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">[{&quot;office location&quot;:&quot;\&quot;Rome\&quot;&quot;, &quot;name&quot;:&quot;\&quot;Bala\&quot;&quot;}]</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>incoming call</name>
+              <className>incoming call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|5</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;help&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>incoming call</name>
+              <className>incoming call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|6</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;+420&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>incoming call</name>
+              <className>incoming call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|7</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;1234&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>office</name>
+              <className>office</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|8</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;Rome&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Accept Call</name>
+              <className>Accept Call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|9</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">true</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Banned Phone Numbers</name>
+              <className>Banned Phone Numbers</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|10</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">[{&quot;country prefix&quot;:&quot;\&quot;+421\&quot;&quot;, &quot;phone number&quot;:&quot;\&quot;90200001\&quot;&quot;},{&quot;country prefix&quot;:&quot;\&quot;+420\&quot;&quot;, &quot;phone number&quot;:&quot;\&quot;60200002\&quot;&quot;}]</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Call Can Be Handled</name>
+              <className>Call Can Be Handled</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|11</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">true</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Call Purpose Accepted</name>
+              <className>Call Purpose Accepted</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|12</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">true</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Is Banned</name>
+              <className>Is Banned</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|13</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>#</name>
+              <className>java.lang.Integer</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>Index</name>
+              <type>OTHER</type>
+            </expressionIdentifier>
+            <rawValue class="string">1</rawValue>
+          </FactMappingValue>
+        </factMappingValues>
+      </Scenario>
+    </scesimData>
+  </simulation>
+  <background>
+    <scesimModelDescriptor>
+      <factMappings>
+        <FactMapping>
+          <expressionElements/>
+          <expressionIdentifier>
+            <name>1|1</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>Empty</name>
+            <className>java.lang.Void</className>
+          </factIdentifier>
+          <className>java.lang.Void</className>
+          <factAlias>INSTANCE 1</factAlias>
+          <expressionAlias>PROPERTY 1</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
+        </FactMapping>
+      </factMappings>
+    </scesimModelDescriptor>
+    <scesimData>
+      <BackgroundData>
+        <factMappingValues>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Empty</name>
+              <className>java.lang.Void</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|1</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+          </FactMappingValue>
+        </factMappingValues>
+      </BackgroundData>
+    </scesimData>
+  </background>
+  <settings>
+    <dmnFilePath>src/main/resources/com/dhl/call_centre_decisions/call-centre.dmn</dmnFilePath>
+    <type>DMN</type>
+    <dmnNamespace>https://kiegroup.org/dmn/_A4B1218A-DD22-4070-8A17-7805E457458F</dmnNamespace>
+    <dmnName>call-centre</dmnName>
+    <skipFromBuild>false</skipFromBuild>
+    <stateless>false</stateless>
+  </settings>
+  <imports>
+    <imports/>
+  </imports>
+</ScenarioSimulationModel>
